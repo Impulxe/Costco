@@ -33,7 +33,7 @@ const steps: Step[] = [
   },
   {
     icon: <Unlock className="w-3 h-3 sm:w-3.5 sm:h-3.5" />,
-    text: "Unlock your Target Rewards",
+    text: "Unlock your Walmart Rewards",
   },
 ];
 
@@ -54,7 +54,8 @@ export default function InstructionSteps() {
 
   return (
     <section className="relative w-full max-w-md mx-auto px-4 sm:px-5 mb-4 mt-3">
-      <div className="relative rounded-[1.5rem] sm:rounded-[2rem] p-2 sm:p-4 bg-white/5 backdrop-blur-md border-2 border-[#cc0000]/25 shadow-[0_8px_32_rgba(234, 108, 2)] overflow-hidden group/box transition-all duration-500 hover:border-[#cc0000]/50 hover:scale-[1.01]">
+      <div className="relative rounded-[1.5rem] sm:rounded-[2rem] p-2 sm:p-4 bg-white/5 backdrop-blur-md border-2 border-[#0053e2
+      ]/25 shadow-[0_8px_32_rgba(234, 108, 2)] overflow-hidden group/box transition-all duration-500 hover:border-[#0053e2]/50 hover:scale-[1.01]">
         {/* Shimmer Effect */}
         <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/10 to-transparent -left-full group-hover/box:animate-shine pointer-events-none" />
         
@@ -71,7 +72,8 @@ export default function InstructionSteps() {
                 onClick={() => handleStepClick(index)}
               >
               {/* Icon Container */}
-              <div className="relative flex-shrink-0 w-6 h-6 sm:w-7 sm:h-7 flex items-center justify-center rounded-lg sm:rounded-xl bg-white/40 border border-[#cc0000]/15 text-[#cc0000] group-hover/item:scale-110 group-hover/item:bg-white/60 transition-all duration-300 shadow-sm">
+              <div className="relative flex-shrink-0 w-6 h-6 sm:w-7 sm:h-7 flex items-center justify-center rounded-lg sm:rounded-xl bg-white/40 border border-[#0053e2
+              ]/15 text-[#0053e2] group-hover/item:scale-110 group-hover/item:bg-white/60 transition-all duration-300 shadow-sm">
                 {step.icon}
               </div>
 

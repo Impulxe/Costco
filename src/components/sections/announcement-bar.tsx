@@ -31,7 +31,7 @@ const AnnouncementBar = () => {
   };
 
   return (
-    <div className="sticky top-0 z-50 w-full bg-[#cc0000] border-b border-[#cc0000]/30 py-1.5 px-4 shadow-[0_4px_20px_rgba(0,0,0,0.3)] backdrop-blur-md">
+    <div className="sticky top-0 z-50 w-full bg-[#0053e2] border-b border-[#0053e2]/30 py-1.5 px-4 shadow-[0_4px_20px_rgba(0,0,0,0.3)] backdrop-blur-md">
       {/* Sparkle Icons Overlay */}
       <div className="absolute inset-0 pointer-events-none overflow-hidden opacity-20">
         <Sparkles 
@@ -58,7 +58,7 @@ const AnnouncementBar = () => {
                 <span className="text-white tabular-nums font-black">
                   {formatTime(timeLeft)}
                 </span>{" "}
-                minutes left to unlock your Target reward
+                minutes left to unlock your Walmart reward
               </p>
             </div>
         </div>

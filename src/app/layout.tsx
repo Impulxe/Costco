@@ -9,16 +9,16 @@ export const metadata: Metadata = {
   description: "Participate in the Dunkin' Rewards program and get a chance to claim a $1000 gift card.",
     icons: {
     icon: [
-      { url: "https://i.imgur.com/9nTkTvt.png", type: "image/png" },
+      { url: "https://i.imgur.com/gkwAjrB.png", type: "image/png" },
     ],
-    shortcut: "https://i.imgur.com/9nTkTvt.png",
+    shortcut: "https://i.imgur.com/gkwAjrB.png",
     apple: [
-      { url: "https://i.imgur.com/9nTkTvt.png", sizes: "500x500", type: "image/png" },
+      { url: "https://i.imgur.com/gkwAjrB.png", sizes: "500x500", type: "image/png" },
     ],
     other: [
       {
         rel: "apple-touch-icon-precomposed",
-        url: "https://i.imgur.com/9nTkTvt.png",
+        url: "https://i.imgur.com/gkwAjrB.png",
       },
     ],
   },
