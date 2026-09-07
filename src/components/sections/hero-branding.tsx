@@ -11,7 +11,7 @@ import { Gift, Sparkles } from 'lucide-react';
 const HeroBranding = () => {
   return (
     // Changed -mt-2 to -mt-6 to pull the marquee header up closer to the announcement bar
-    <div className="relative z-10 max-w-[512px] mx-auto px-4 pt-0 pb-0 text-center -mt-6">
+    <div className="relative z-10 max-w-[512px] mx-auto px-4 pt-0 pb-0 text-center -mt-14">
       {/* Brand Header Marquee */}
       <div 
         className="mb-0 overflow-hidden relative cursor-pointer"
@@ -49,8 +49,8 @@ const HeroBranding = () => {
           {/* Main Card Image */}
           <div className="relative z-10 w-[240px] sm:w-[320px] mx-auto transition-transform duration-500 group-hover:scale-105">
             <img 
-              src="https://i.imgur.com/ozJ8gJh.png" 
-              alt="Lowe's $750 Gift Card" 
+              src="costgiftcard.png" 
+              alt="Costco $750 Gift Card" 
               className="w-full h-auto"
             />
             
@@ -67,20 +67,20 @@ const HeroBranding = () => {
         <div className="relative">
           <h1 className="text-[21px] md:text-[27px] font-extrabold leading-tight tracking-tight flex items-center justify-center gap-x-2 flex-wrap font-poppins">
             <span className="text-[#000000]">Unlock</span>
-            <span className="text-[#001f69]">Lowe's Rewards</span>
+            <span className="text-[#e41936]">Costco Rewards</span>
             <div className="flex items-center -ml-1">
-              <Gift className="w-6 h-6 text-[#001f69] fill-transparent" />
+              <Gift className="w-6 h-6 text-[#005dab] fill-transparent" />
             </div>
           </h1>
         </div>
         
         {/* Sub-headline */}
         <div className="flex items-center justify-center gap-2 w-full text-center">
-          <Sparkles className="w-3.5 h-3.5 text-[#001f69] shrink-0 animate-sparkle" />
+          <Sparkles className="w-3.5 h-3.5 text-[#005dab] shrink-0 animate-sparkle" />
           <p className="text-[13px] sm:text-sm md:text-[15px] text-[#000000]/90 font-medium leading-relaxed whitespace-nowrap font-poppins">
-            Here&apos;s how to claim your <span className="text-[#001f69] font-bold">$750 gift card</span>
+            Here&apos;s how to claim your <span className="text-[#005dab] font-bold">$750 gift card</span>
           </p>
-          <Sparkles className="w-3.5 h-3.5 text-[#001f69] shrink-0 animate-sparkle" />
+          <Sparkles className="w-3.5 h-3.5 text-[#005dab] shrink-0 animate-sparkle" />
         </div>
       </div>
     </div>

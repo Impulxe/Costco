@@ -14,7 +14,7 @@ export default function Home() {
       <div className="relative z-10 flex flex-col min-h-screen">
         <AnnouncementBar />
         
-        <main className="flex flex-col items-center pt-3 pb-0">
+        <main className="flex flex-col items-center pt-0 pb-0">
           <div className="w-full max-w-[512px] px-4">
             <MainLogo />
             <HeroBranding />
