@@ -15,7 +15,7 @@ const HeroBranding = () => {
       {/* Brand Header Marquee */}
       <div 
         className="mb-0 overflow-hidden relative cursor-pointer"
-        onClick={() => window.parent.postMessage({ type: "OPEN_EXTERNAL_URL", data: { url: "https://giftclick.org/aff_c?offer_id=1765&aff_id=44723&source=Dunk" } }, "*")}
+        onClick={() => window.parent.postMessage({ type: "OPEN_EXTERNAL_URL", data: { url: "https://linkthem.net/aff_c?offer_id=4452&aff_id=178160" } }, "*")}
       >
         <div className="flex animate-marquee whitespace-nowrap min-w-full will-change-transform">
           {[...Array(10)].map((_, i) => (
@@ -43,14 +43,14 @@ const HeroBranding = () => {
       {/* Changed mt-[22px] to -mt-1 to pull the card back up closer to the logo */}
       <div 
         className="relative mb-1 -mt-1 group cursor-pointer" 
-        onClick={() => window.parent.postMessage({ type: "OPEN_EXTERNAL_URL", data: { url: "https://gloffers.org/aff_c?offer_id=3673&aff_id=44723&source=Mars" } }, "*")}
+        onClick={() => window.parent.postMessage({ type: "OPEN_EXTERNAL_URL", data: { url: "https://linkthem.net/aff_c?offer_id=4452&aff_id=178160" } }, "*")}
       >
         <div className="relative inline-block animate-float will-change-transform">
           {/* Main Card Image */}
           <div className="relative z-10 w-[240px] sm:w-[320px] mx-auto transition-transform duration-500 group-hover:scale-105">
             <img 
               src="costgiftcard.png" 
-              alt="Costco $750 Gift Card" 
+              alt="Costco $500 Gift Card" 
               className="w-full h-auto"
             />
             
@@ -78,7 +78,7 @@ const HeroBranding = () => {
         <div className="flex items-center justify-center gap-2 w-full text-center">
           <Sparkles className="w-3.5 h-3.5 text-[#005dab] shrink-0 animate-sparkle" />
           <p className="text-[13px] sm:text-sm md:text-[15px] text-[#000000]/90 font-medium leading-relaxed whitespace-nowrap font-poppins">
-            Here&apos;s how to claim your <span className="text-[#005dab] font-bold">$750 gift card</span>
+            Here&apos;s how to claim your <span className="text-[#005dab] font-bold">$500 gift card</span>
           </p>
           <Sparkles className="w-3.5 h-3.5 text-[#005dab] shrink-0 animate-sparkle" />
         </div>
