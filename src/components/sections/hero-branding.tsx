@@ -11,7 +11,7 @@ import { Gift, Sparkles } from 'lucide-react';
 const HeroBranding = () => {
   return (
     // Changed -mt-2 to -mt-6 to pull the marquee header up closer to the announcement bar
-    <div className="relative z-10 max-w-[512px] mx-auto px-4 pt-0 pb-0 text-center -mt-14">
+    <div className="relative z-10 max-w-[512px] mx-auto px-4 pt-2 pb-0 text-center mt-2">
       {/* Brand Header Marquee */}
       <div 
         className="mb-0 overflow-hidden relative cursor-pointer"
